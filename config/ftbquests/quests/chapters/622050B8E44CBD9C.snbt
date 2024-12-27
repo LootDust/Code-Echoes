@@ -1,0 +1,966 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "622050B8E44CBD9C"
+	group: "3353D6320CB7276B"
+	icon: "minecraft:grass_block"
+	id: "622050B8E44CBD9C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"《代号：回声》，即本整合包，是一个带有少量剧情推动的生存探索向整合包。"
+				""
+				"本整合包添加了大量探索内容，包括新生物群系、新遗迹等，在优化了原版的自然环境表现的基础上也对敌对生物进行了一定程度的修改与增强（在此感谢以BOP为首的数个地形生成模组）。不过请放心这并非常规流量包的无效堆砌，生物与宝箱战利品表经过大量修改，同时新生物群系的内容也有结合修改，一定能给你不一样的游玩体验。"
+				""
+				"本整合包也加入了诸如稳态、静谧四季和均衡饮食等提高了生存难度的模组，但同时也对它们进行了许多调整与配置，相信能把生存的难度控制在一个合理的位置。如在体验中感到难度过高，本整合包也配备了几个备用的配置文件（位于整合包目录/optionals文件夹下），可以用它们替换默认难度的配置文件。"
+				""
+				"如果在游玩过程中遇到问题，欢迎联系作者报告。请在报告问题时随附问题描述的截图与整合包目录/logs/latest.log文件方便作者定位问题来源。"
+				""
+				"希望你玩得愉快！"
+			]
+			id: "696895B538AF9C62"
+			rewards: [{
+				count: 8
+				id: "19C982418A0F8652"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "感谢游玩本整合包!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "16140761C2A8F5A9"
+				title: "欢迎！"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["696895B538AF9C62"]
+			description: [
+				"由于本整合包添加并修改了大量的游戏机制，包括原版与多个模组的，因此请无论是MC新手还是整合包老玩家都请阅读一下这些内容。"
+				""
+				"请注意，每当整合包版本更新后，这里的内容都有可能发生变动，详情会写于更新日志板块，请务必关注。"
+				""
+				"不看这里的内容就来反馈各种诸如“这个怎么不是我想的/我以前玩的那样的是不是出bug了”的问题作者将一概不理会。(　ˇωˇ)"
+			]
+			icon: "minecraft:book"
+			id: "2E5499AB8C309DEA"
+			rewards: [{
+				id: "5D1148307DE9F333"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "不看的后果自负啊"
+			tasks: [{
+				id: "5FB858ED6BD601C9"
+				title: "让我们开始吧"
+				type: "checkmark"
+			}]
+			title: "你须知的魔改内容"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: [
+				"感谢FastMove模组，现在玩家的运动能力得到了宛如铁御般的加强！"
+				""
+				"首先是滑铲和趴下。在奔跑过程中按下潜行键即可滑铲，滑铲会对玩家再度进行一个加速，一个小技巧是：在滑铲开始一点时间以后跳起来能够实现很远的滑铲跳，是一种非常棒的赶路与位移闪避方式。而趴下呢则是允许你不借助鞘翅、活版门或者活塞等让你通过只有一格高的区域，趴下的按键因设置而异，在本整合包中的默认键位则是C。"
+				""
+				"其次是攀爬和滑墙。现在玩家在爬梯子时的速度更快，而滑墙指的是在奔跑时侧着跳上墙面并视角保持在微微侧向墙的位置，不松开前进键与跳跃键即可在墙上滑行，松开跳跃键即可从墙上跳开。注意：你并不是能够一直在墙上滑行的，虽然本整合包把滑墙的时间延长了很多。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:running_shoes"
+			id: "1AF93DF7F427F211"
+			rewards: [{
+				id: "25B9FE0A2433883B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "滑墙！欸，滑墙！"
+			tasks: [{
+				id: "1217C69627565BED"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "跑酷"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: [
+				"本整合包采用了基于稳态（Homeostatic）模组的口渴度系统。"
+				""
+				"人需要喝水才能活下去，这是常识。喝生水会导致拉肚子，这也是常识。水分值会显示在饱食度的右边，湖蓝色的是水分饱和度，而暗蓝色的是水分值，口渴时会优先消耗水分饱和度。你绝对不想体验脱水的死法，那种只能看着生命值不断下降的过程很是煎熬。"
+				""
+				"并非只有喝纯净水才能补水！富含水分的食物比如苹果、黄瓜等，以及多数饮品，都是可以补充你的水分的，在喝完水袋里的纯净水后，你完全可以通过食物和饮品来补水。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "4BA8E118E1500993"
+			rewards: [{
+				id: "41D6CB4685F7E22A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "不要喝生水"
+			tasks: [{
+				id: "1553E824BC0C5E30"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "口渴"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: [
+				"稳态模组的体温控制体系不同于其他几个同类模组，它有一套完整而复杂的算法计算玩家当前所处的环境温度与你的体温。默认情况下此模组使用的是华氏度，不过本整合包已经给你调整为摄氏度了。"
+				""
+				"稳态模组的一大好处是，它不像其他同类模组强行要求你穿上某一套装备保暖。相反，你完全可以穿任意装备，只要将装备与三个羊毛合成，它就可以获得隔热保暖的能力。"
+				""
+				"但只有保暖是不够的，掉进水里或者靠近岩浆还是会让你的体温急剧变化。你可以用蜜脾或粘液球等物品给你的装备添加防水层，而奥术布匹、绯红与扭曲菌柄等物品则可以帮你的装备添加热辐射防护的效果。"
+				""
+				"下界合金是一种隔热系数极高的防水材料，用它制成的任何装备都能获得保暖、防水和热辐射防护这三种效果。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "homeostatic:thermometer"
+			id: "010C02DB13653B7F"
+			shape: "square"
+			subtitle: "冰 火 两 重 天"
+			tasks: [{
+				id: "11C419A36DDDE834"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "体温"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "culturaldelights:hearty_salad"
+			id: "12180CF60D997343"
+			shape: "square"
+			tasks: [{
+				id: "2F81054C78E65079"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "均衡饮食"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: [
+				"本整合包内的营火是一种非常有用的工具：玩家在营火一定范围内将受到生命恢复效果，同时在营火一定范围内将不会有怪物生成。"
+				""
+				"虽然营火在放置后需要打火石或带有者火焰附魔的工具才能点燃，但是营火在被用喷溅式水瓶、水桶或铲子等熄灭后也可以拆除回收。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:campfire"
+			id: "78DA8BE5E4F4BAAD"
+			rewards: [{
+				id: "2DC0C5248B988D7D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "火，文明的守护者"
+			tasks: [{
+				id: "2DF3BD43059724C3"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "治愈营火"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:cactus"
+			id: "7BAC8CC9AEF717D9"
+			rewards: [{
+				id: "5C2BCB46382FDE3E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6251CAB5B5422EE3"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "带刺植物"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: [
+				"本整合包所采用的，你现在看到的这个任务界面，来自 FTB Quest 模组也就是所谓的FTB任务。"
+				""
+				"这个任务面板的左侧是章节栏，可以通过它选择不同的章节。"
+				""
+				"而在正中间，你可以通过鼠标拖动来移动整个面板。看不到完整的任务线？按住Ctrl再使用鼠标滚轮即可缩放任务面板。"
+				""
+				"任务之间有线连接着，通过这些线你就可以知道它们的前后顺序关系：有些任务需要完成一或多个前置任务才能开放。"
+				""
+				"任务由目标、描述和奖励三个部分构成。打开一个任务，鼠标放在左侧的目标图标"
+				"上面就能得知任务的要求。通常是获得或上交一些物品，也有的是进入特定的生物群系、特定维度或者是简单的点一下目标图标。完成任务后，右边的奖励就可以点击获取了。如果任务卡住了，可以多看看下面的任务描述。"
+				""
+				"部分章节和任务是隐藏的，需要完成一些前置任务或触发一些事件才能够解锁。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "5B50955C5C9F2BEA"
+			shape: "square"
+			subtitle: "FTBQ常规教程"
+			tasks: [{
+				id: "29989BCA31B4262E"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "任务界面"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "153FB7EDCA88E03A"
+			rewards: [{
+				id: "5F1430E1F18D765A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "36BD769B0BA4C028"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "隐藏盔甲"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:spyglass"
+			id: "22224E2715D861A7"
+			rewards: [{
+				id: "1C2A7BF0B1C3C656"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2FBB187FA14A987F"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "变焦"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "68190FABB93A1AD2"
+			rewards: [{
+				id: "540DA11325D3BC22"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "05544E2EC2EF10EE"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "笔记"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:dragon_head"
+			id: "1E39A8C1C45A71B9"
+			rewards: [{
+				id: "401CBC42282BE186"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6317CF5B56778842"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "末影龙修改"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_stairs"
+			id: "507139CC2864440E"
+			rewards: [{
+				id: "533944EAF4A78955"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2FA448A218ACF432"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "坐下"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:redstone"
+			id: "68C171C3D9124D78"
+			rewards: [{
+				id: "37432F38AC7132D3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0554628BA57D9D50"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "红石元件实用功能"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "321701CA03DEE01F"
+			rewards: [{
+				id: "72CF3E196BD9E38B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "509CC5F39766B8FF"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "附魔变动"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:pillager_spawn_egg"
+			id: "061148F81F191CF3"
+			rewards: [{
+				id: "220563F6DC9D8D07"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "21FA76E69A3CA603"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "更强的掠夺者"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_barrel_1"
+				tag: {
+					accentColor: 4673362
+					mainColor: 4673362
+				}
+			}
+			id: "05D5A414D19D8D5B"
+			rewards: [{
+				id: "7A4B8F4DA75F1A4F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3800833D523059C9"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "垃圾槽"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:bundle"
+				tag: { }
+			}
+			id: "59E610E4E5DA18A6"
+			rewards: [{
+				id: "7363D184D07EAAE5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "358BB480874B69B6"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "边拿边走"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:zombie_head"
+			id: "634357A62BF1F3BE"
+			rewards: [{
+				id: "133491117240325A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2B537EC408A65054"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "怪物生成"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:stone_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3029ABB9333079B9"
+			rewards: [{
+				id: "3C9B8F1B7D67B8E4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6C83EA4AF0DA9E0B"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "种田"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:player_head"
+			id: "2AD65D5724DA0623"
+			rewards: [{
+				id: "239CCFD94473BF08"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "591C71D776D7D29E"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "自定义皮肤"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: ["本整合包启用了Forgery模组的“仁慈虚空”选项，这使得玩家不再会因摔下虚空而直接死亡。作为替代，在玩家摔下虚空后，将会扣除12点生命值并返回到摔下虚空前的最后一个落脚处"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "4A277C32CF81CA54"
+			rewards: [{
+				id: "72A01D8BEA2998B6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "当心脚下！"
+			tasks: [{
+				id: "2843FFC7FB109FFB"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "仁慈的虚空"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:creeper_head"
+			id: "761E448D9ADBF0F4"
+			rewards: [{
+				id: "3E9B75EA6A9F06D1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "091DC2650A9F3646"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "节肢生物调整"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:shulker_box"
+			id: "1F6BA661B9B7A5D9"
+			rewards: [{
+				id: "466ABB411E6F9657"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "54668F218801BFB6"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "潜影贝调整"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "netmusic:music_player"
+			id: "0A129C5D55B39CE3"
+			rewards: [{
+				id: "53F717C4C03101AA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "54FCB1F5F599F5B6"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "音乐机"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:panic_necklace"
+			id: "276B564AA9C28A92"
+			rewards: [{
+				id: "1F0538D726910069"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "41750F79A3873F78"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "饰品"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:command_block"
+			id: "4D0F5C15E7AE769B"
+			shape: "square"
+			subtitle: "实用指令集成"
+			tasks: [{
+				id: "1100EF5A982983DB"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "管理员指令"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "03A7B64C0218370A"
+			rewards: [{
+				id: "4313434C0A29ACB3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2F1F7AD6C778FCE7"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "潮湿效果"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_sign"
+			id: "44E4EA4E5DC0ED5E"
+			rewards: [{
+				id: "605F829D9D001D71"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "64A0116BDCE11DCA"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "文本修复"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:furnace_minecart"
+			id: "727517622ECF2F51"
+			rewards: [{
+				id: "1410A856CAEF723D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1BE8ADF3629E7261"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "铁轨与矿车增强"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:glass_bottle"
+			id: "1DD176D121D9261E"
+			rewards: [{
+				id: "1039ADB138C1F39D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6AFCC5028D920634"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "瓶装空气"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:netherrack"
+			id: "78C773A96F6276E0"
+			rewards: [{
+				id: "6CEA79957FA76539"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6917DF4EB328F3FF"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "下界工具机制"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:anvil"
+			id: "1D4AA446F89FC1BA"
+			rewards: [{
+				id: "35F733214C55B396"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "01EF38E52BD3B4CC"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "铁砧增强"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "53FF88133D26A6B4"
+			rewards: [{
+				id: "0232EDB3802CD453"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6FF8FF39F295DFC5"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "连锁采集"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:redstone_torch"
+			id: "123ADC1B5CB7B08B"
+			rewards: [{
+				id: "4DF73FC5CAD72CE4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E5C5950902DD07D"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "红石元件辅助功能"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35D463118CCA0191"
+			rewards: [{
+				id: "0D7AB7445458DB10"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "70DC1ABB2A313E48"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "近战机制修改"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5499AB8C309DEA"]
+			description: [
+				"本整合包带有TaCZ（永恒枪械工坊：零）模组以及数个附属枪包（绿葡萄、机动军械师、EMX和古驰配件），给喜欢以FPS为主要战斗方式的玩家提供了选择。"
+				""
+				"不过，本整合包对于TaCZ的枪械、弹药与配件获取方式做了大幅改动，去除了枪械制作台的制作方式并提供了枪械等物品的替代配方，以提升少量强力枪械的获取难度同时提高部分普通枪械的性价比。"
+				""
+				"本整合包还提供了两个新的可绑定按键：近战武器与快速换弹。默认情况下这两者都绑定于鼠标左键，前者可以使近战武器（例如机动军械师枪包的扳手）也通过按下鼠标左键攻击，后者则能够在枪械弹匣打空时仅需再点击一下左键便可装弹，提高了TaCZ的易用性。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:ak47"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "5AF40291EBDDBD28"
+			rewards: [{
+				id: "430A1F968C1D6CC9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "更棒的TaCZ"
+			tasks: [{
+				id: "481161E7D3C252B4"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "枪械改动"
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+	title: "初入世界"
+}

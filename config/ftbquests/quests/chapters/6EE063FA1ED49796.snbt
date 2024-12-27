@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6EE063FA1ED49796"
+	group: "2C2689D8B08DED86"
+	icon: "regions_unexplored:prismarite_cluster"
+	id: "6EE063FA1ED49796"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["矿石晶体会生长于所有矿石暴露于空气中的表面，它们缓慢生长，等到完全成熟以后便可以采掘下来，是所有矿石的通用再生方式。"]
+			id: "7D2ED2BCF5197D6A"
+			invisible: true
+			rewards: [{
+				id: "569433BC52773DE4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "不竭的源泉"
+			tasks: [{
+				icon: "oregrowth:ore_growth"
+				id: "0AA77D4949DF21B8"
+				observe_type: 0
+				timer: 0L
+				title: "矿石晶体"
+				to_observe: "oregrowth:ore_growth"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["马勃菌一般生长于地下洞穴内，虽然看上去像个皮球，但是它确实是可以食用的，炸过后的味道棒极了。"]
+			id: "15DBF3202F6741B8"
+			invisible: true
+			rewards: [{
+				id: "6882EB3EEDE60F64"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "可食用的菌类"
+			tasks: [{
+				icon: "biomeswevegone:white_puffball_spores"
+				id: "695A8F2FC28CC61B"
+				observe_type: 0
+				timer: 0L
+				title: "白色马勃菌"
+				to_observe: "biomeswevegone:white_puffball"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "7FB7ABB80FE7183F"
+			invisible: true
+			rewards: [{
+				id: "0B42373D4F0ABB41"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "紫水晶之源"
+			tasks: [{
+				icon: "minecraft:budding_amethyst"
+				id: "1C05F912256BAB0F"
+				observe_type: 0
+				timer: 0L
+				title: "紫水晶母岩"
+				to_observe: "minecraft:budding_amethyst"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7284AE3E981D2126"
+			invisible: true
+			rewards: [{
+				id: "143B936A9ACD2BD9"
+				type: "xp_levels"
+				xp_levels: 1000
+			}]
+			shape: "rsquare"
+			subtitle: "你从哪看到这个的！？"
+			tasks: [{
+				icon: "minecraft:command_block"
+				id: "12891F08F3243B3F"
+				observe_type: 0
+				timer: 0L
+				title: "命令方块"
+				to_observe: "minecraft:command_block"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: ["平滑玄武岩会生成于主世界的地下，它是紫水晶晶球的最外层结构，不过同时你也可以在火山等群系的地表找到它。"]
+			id: "194CF63CE2E42A86"
+			invisible: true
+			rewards: [{
+				id: "7A322C8CAFA50D68"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "看到这个就说明你找到晶球了"
+			tasks: [{
+				icon: "minecraft:smooth_basalt"
+				id: "75AE7E11F563BBD3"
+				observe_type: 0
+				timer: 0L
+				title: "平滑玄武岩"
+				to_observe: "minecraft:smooth_basalt"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["除了在紫晶球的中间层可以发现这种石头，在古代三角洲等群系也可见到它。"]
+			id: "406DE44689A8E66A"
+			invisible: true
+			rewards: [{
+				id: "43B8820575895050"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "晶球的中间层结构"
+			tasks: [{
+				icon: "minecraft:calcite"
+				id: "4B980947FBE12418"
+				observe_type: 0
+				timer: 0L
+				title: "方解石"
+				to_observe: "minecraft:calcite"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "352A6B5FE04EDEA9"
+			invisible: true
+			rewards: [{
+				id: "4B5AF45FA969F279"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "紫水晶球的主要有效成分"
+			tasks: [{
+				icon: "minecraft:amethyst_block"
+				id: "1B9754EFF2448109"
+				observe_type: 0
+				timer: 0L
+				title: "紫水晶块"
+				to_observe: "minecraft:amethyst_block"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "71D55671C3430FCE"
+			invisible: true
+			rewards: [{
+				id: "02E50EE15D0AFF9A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: "create:crimsite"
+				id: "6520F9AE9B352CDB"
+				observe_type: 0
+				timer: 0L
+				title: "绯红岩"
+				to_observe: "create:crimsite"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "563B91936DF7F208"
+			invisible: true
+			rewards: [{
+				id: "756E262E4AB08C34"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: "create:limestone"
+				id: "321AB07DBA970844"
+				observe_type: 0
+				timer: 0L
+				title: "石灰岩"
+				to_observe: "create:limestone"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: ["富壤土是一种特别的泥土类方块，可以在可可尼诺草甸等群系中找到。"]
+			id: "1CB0BF1457321706"
+			invisible: true
+			rewards: [{
+				id: "3C8C7A598002E98D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "富含氮磷钾"
+			tasks: [{
+				icon: "biomeswevegone:lush_dirt"
+				id: "2BC61D9DB503BDAE"
+				observe_type: 0
+				timer: 0L
+				title: "富壤土"
+				to_observe: "biomeswevegone:lush_dirt"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["富壤草方块是一种特别的泥土类方块，可以在可可尼诺草甸等多个群系中找到，它同时也是草方块代替泥炭土以后的形式。"]
+			id: "202AE5924BCDAFF2"
+			rewards: [{
+				id: "7ACEFE863D03E1F8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "富含氮磷钾"
+			tasks: [{
+				icon: "biomeswevegone:lush_grass_block"
+				id: "2A97A1254DF2EA6B"
+				observe_type: 0
+				timer: 0L
+				title: "富壤草方块"
+				to_observe: "biomeswevegone:lush_grass_block"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: ["这种石头可以在古代三角洲等群系内找到，通常最上方存在着泥板岩草方块。"]
+			id: "2F47247819F74A3B"
+			invisible: true
+			rewards: [{
+				id: "6698BF433B82B4A7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "泥土？石头？"
+			tasks: [{
+				icon: "regions_unexplored:argillite"
+				id: "2FC42413DFD07F7C"
+				observe_type: 0
+				timer: 0L
+				title: "泥板岩"
+				to_observe: "regions_unexplored:argillite"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["一种出现于古代三角洲等群系的草方块。"]
+			id: "59C39C97935758BF"
+			rewards: [{
+				id: "19EFF59503E9350B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "石头？泥土？"
+			tasks: [{
+				icon: "regions_unexplored:argillite_grass_block"
+				id: "594735327AFBE456"
+				observe_type: 0
+				timer: 0L
+				title: "泥板岩草方块"
+				to_observe: "regions_unexplored:argillite_grass_block"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["出现于巫术垂柳之森等地的特殊土壤，富含大量可燃成分，可以在熔炉内烧成木炭。"]
+			id: "39A8C7B26C360E17"
+			rewards: [{
+				id: "165FFA13C30F1601"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "可燃土"
+			tasks: [{
+				icon: "biomeswevegone:peat"
+				id: "3CA34AA0C0551D26"
+				observe_type: 0
+				timer: 0L
+				title: "泥炭土"
+				to_observe: "biomeswevegone:peat"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["位于英安岩山岭和天际山谷等地的常见岩石，没有什么特别的用途。"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "36548C7E2AD294E9"
+			shape: "rsquare"
+			subtitle: "废石喜加一"
+			tasks: [{
+				icon: "biomeswevegone:dacite"
+				id: "6973B1ACC55B6514"
+				observe_type: 0
+				timer: 0L
+				title: "英安岩"
+				to_observe: "biomeswevegone:dacite"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+	]
+	title: "自然瑰宝"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "718B06C1EE549939"
+	group: "6BA03CAEE08F1294"
+	icon: "thermal:iron_plate"
+	id: "718B06C1EE549939"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "信物兑换处"
+}

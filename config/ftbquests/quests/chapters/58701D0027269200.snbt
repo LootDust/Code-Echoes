@@ -1,0 +1,49 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "58701D0027269200"
+	group: "52A574C3C9A7AF3D"
+	id: "58701D0027269200"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "0531A94FAA9B04AC"
+		rewards: [
+			{
+				auto: "enabled"
+				command: "/worldborder center 0.0 0.0"
+				exclude_from_claim_all: true
+				id: "4B37A4C1B075E411"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}
+			{
+				auto: "enabled"
+				command: "/worldborder set 65536 0"
+				exclude_from_claim_all: true
+				id: "7C913C7958E56EBE"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				type: "command"
+			}
+		]
+		tasks: [
+			{
+				dimension: "minecraft:overworld"
+				id: "5773F7CE2A3084EE"
+				type: "dimension"
+			}
+			{
+				id: "3ADE93C5E5F84773"
+				type: "custom"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "自定义事件"
+}

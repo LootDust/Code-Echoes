@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "006C3467E5012DC6"
+	group: "015BE6022A4EA63F"
+	id: "006C3467E5012DC6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "奥术"
+}

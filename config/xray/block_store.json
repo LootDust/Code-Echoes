@@ -1,0 +1,37 @@
+[
+  {
+    "name": "钻石矿石",
+    "blockName": "minecraft:diamond_ore",
+    "order": 4,
+    "color": 42495,
+    "drawing": true
+  },
+  {
+    "name": "铁矿石",
+    "blockName": "minecraft:iron_ore",
+    "order": 1,
+    "color": 10518624,
+    "drawing": false
+  },
+  {
+    "name": "深层钻石矿石",
+    "blockName": "minecraft:deepslate_diamond_ore",
+    "order": 5,
+    "color": 42495,
+    "drawing": true
+  },
+  {
+    "name": "金矿石",
+    "blockName": "minecraft:gold_ore",
+    "order": 2,
+    "color": 15254544,
+    "drawing": true
+  },
+  {
+    "name": "深层金矿石",
+    "blockName": "minecraft:deepslate_gold_ore",
+    "order": 3,
+    "color": 15254544,
+    "drawing": true
+  }
+]

@@ -1,0 +1,20 @@
+.mixin.out/
+.vscode/
+Code Echo-natives/
+crash-reports/
+CustomSkinLoader/
+local/
+logs/
+notes/
+PCL/
+saves/
+schematics/
+screenshots/
+xaero/
+XaeroWaypoints_BACKUP240807/
+fabricloader.log
+patchouli_data.json
+rhino.local.properties
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json

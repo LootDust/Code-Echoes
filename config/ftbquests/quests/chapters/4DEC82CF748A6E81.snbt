@@ -1,0 +1,1525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4DEC82CF748A6E81"
+	group: "7396EC14ECFA1035"
+	icon: "minecraft:grass"
+	id: "4DEC82CF748A6E81"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "34EC5FDC34DE532B"
+			rewards: [{
+				id: "1C94E0734BD41A83"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:autumnal_maple_forest"
+				icon: "natures_spirit:yellow_maple_leaves"
+				id: "3EB66BC8CAAB7F81"
+				title: "秋季枫树林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "62770D6B70F99099"
+			rewards: [{
+				id: "20397D3AC42E12D8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:coconino_meadow"
+				icon: "biomeswevegone:lush_grass_block"
+				id: "55EE07643FB2E075"
+				title: "可可尼诺草甸"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "628241F5D7B1D6F1"
+			rewards: [{
+				id: "2EAB20EBE8E27560"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:beach"
+				icon: "minecraft:sand"
+				id: "57F094AEBE9B4390"
+				title: "沙滩"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "159FD88B2CC2389B"
+			rewards: [{
+				id: "51FF4832977965AC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:cold_ocean"
+				icon: "minecraft:cod_bucket"
+				id: "55CD08A7045AFC4E"
+				title: "冷水海洋"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "16A4B806A083E8C7"
+			rewards: [{
+				id: "78005A7679897B93"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:deep_ocean"
+				icon: "minecraft:prismarine"
+				id: "65F287D7137D01E0"
+				title: "深海"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "0AFACDDC0042AFD5"
+			rewards: [{
+				id: "2F58E87B1CA4EFD2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:skylands_autumn"
+				icon: "minecraft:wheat"
+				id: "59247AC33A62D274"
+				title: "秋季的浮空岛"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "00D46A6414AA6CAD"
+			rewards: [{
+				id: "79C2D73B9884E710"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				icon: "minecraft:red_mushroom_block"
+				id: "4233425EA28A51C0"
+				title: "蘑菇岛"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "0FF30512C21E85E4"
+			rewards: [{
+				id: "249689C3102C371C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:deep_cold_ocean"
+				icon: "minecraft:cod_bucket"
+				id: "30778FD6E364F74F"
+				title: "冷水深海"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "42EF9E2057DDA9EC"
+			rewards: [{
+				id: "56626C276B73DF39"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:gravel_beach"
+				icon: "minecraft:gravel"
+				id: "7F3D7F38D5E7420B"
+				title: "砾滩"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "693BBDA96EF96CFF"
+			rewards: [{
+				id: "6609529080C6C51C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:coniferous_forest"
+				icon: "biomesoplenty:fir_leaves"
+				id: "5B98B501603F9D72"
+				title: "冷杉针叶林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			id: "7A51DBA8033F4DEF"
+			rewards: [{
+				id: "70BD77A941CE9898"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:gravel_beach"
+				icon: "minecraft:gravel"
+				id: "63DB7A87872782A9"
+				title: "砾石滩"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "6A250D1345DD27AD"
+			rewards: [{
+				id: "4372A443C29EDF55"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass_block"
+				id: "495ADC2EF132F350"
+				title: "平原"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "55F119E6FB4C7CEE"
+			rewards: [{
+				id: "17DFC01018248B44"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:prairie"
+				icon: "biomesoplenty:goldenrod"
+				id: "4C20E24D378F08F5"
+				title: "北美草原"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			id: "1BFDB4B5087E316C"
+			rewards: [{
+				id: "0A5496A22C510DCA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:orchard"
+				icon: "biomeswevegone:orchard_leaves"
+				id: "29B9661FD9094382"
+				title: "果园"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			id: "37198EC8BE7D70DD"
+			rewards: [{
+				id: "74F6FA337612132A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:redwood_forest"
+				icon: "biomesoplenty:redwood_log"
+				id: "62941D652412F2CD"
+				title: "红木森林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "4A504DAB0CA6B5CB"
+			rewards: [{
+				id: "70AA9F03C55158E4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:dune_beach"
+				icon: "minecraft:sand"
+				id: "58A7B83A6A54048C"
+				title: "沙丘海滩"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "5F6AA0D882D382E1"
+			rewards: [{
+				id: "29AD5F48FC69CBB0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:ocean"
+				icon: "minecraft:prismarine"
+				id: "64678A5C86CD6FAB"
+				title: "海洋"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "5411EC9B739735A7"
+			rewards: [{
+				id: "3ADD9CC1DDB40477"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:river"
+				icon: "minecraft:seagrass"
+				id: "3FCA88EB990F70BE"
+				title: "河流"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "1FB2DB4CAF3CE02A"
+			rewards: [{
+				id: "3179E71B34754BCA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:forest"
+				icon: "minecraft:oak_leaves"
+				id: "54AD48D2442A8B0B"
+				title: "森林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			id: "23663D66DEB51D11"
+			rewards: [{
+				id: "374EC352852537FF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:highland"
+				icon: "minecraft:grass"
+				id: "46E1787B17B8E3BF"
+				title: "高地"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			id: "400DF9C8F5E3B86A"
+			rewards: [{
+				id: "36A9E6116A3518F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:highland_fields"
+				icon: "regions_unexplored:felicia_daisy"
+				id: "73D51FF22BE2BC8A"
+				title: "高地原野"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			id: "1E3F396A04D00C33"
+			rewards: [{
+				id: "455D5A39D6BA0593"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:willow_forest"
+				icon: "regions_unexplored:willow_leaves"
+				id: "5572A969AC552489"
+				title: "柳树林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			id: "6A196603F031132C"
+			rewards: [{
+				id: "59163E5ECE65B09D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:cave/andesite_caves"
+				icon: "minecraft:andesite"
+				id: "69CA541D9EB625E5"
+				title: "安山岩洞穴"
+				type: "biome"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			id: "7D300F383CB96CDE"
+			rewards: [{
+				id: "3577B038F9790E30"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:clover_plains"
+				icon: "regions_unexplored:clover"
+				id: "26BDC847863E641E"
+				title: "三叶草平原"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			id: "7E3B95019A190E5F"
+			rewards: [{
+				id: "5B8DE3039A8515CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:old_growth_spruce_taiga"
+				icon: "minecraft:large_fern"
+				id: "6D259D5C47D202B6"
+				title: "原始云杉针叶林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			id: "4F97A036BA2ACA89"
+			rewards: [{
+				id: "0E36957B35371B85"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:old_growth_pine_taiga"
+				icon: "minecraft:large_fern"
+				id: "1EF16C613DC241DB"
+				title: "原始松木针叶林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			id: "7A782F33D9ACB02B"
+			rewards: [{
+				id: "13E4BCC6D2BF8440"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				icon: "minecraft:dark_oak_leaves"
+				id: "34FBD9BD4E9BD6F2"
+				title: "黑森林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			id: "22C2A6F99D1F6779"
+			rewards: [{
+				id: "1DA6C55AA790D1FA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:bamboo_jungle"
+				icon: "minecraft:bamboo"
+				id: "6EFF1F25353044AF"
+				title: "竹林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			id: "4C352DEEB5E67255"
+			rewards: [{
+				id: "1AC3EB49FF288A40"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:rocky_jungle"
+				icon: "minecraft:jungle_leaves"
+				id: "4222EB6245221989"
+				title: "崎岖的丛林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			id: "13F8CBF65B0D2210"
+			rewards: [{
+				id: "63D5C08663441586"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				icon: "minecraft:big_dripleaf"
+				id: "335C6D677C845891"
+				title: "繁茂洞穴"
+				type: "biome"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			id: "1E30F344F9963ED9"
+			rewards: [{
+				id: "48EBAC041715A10F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:sparse_redwoods"
+				icon: "regions_unexplored:redwood_leaves"
+				id: "37FF5E2BB0B7A750"
+				title: "稀疏的红衫林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			id: "319A4DE267949402"
+			rewards: [{
+				id: "38FDE8BFB4A91660"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:ancient_delta"
+				icon: "regions_unexplored:argillite_grass_block"
+				id: "446F1976BDFEE2D8"
+				title: "古代三角洲"
+				type: "biome"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			id: "52DB1C53EA1BDACB"
+			rewards: [{
+				id: "6E80557E55999359"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:redwoods"
+				icon: "regions_unexplored:redwood_leaves"
+				id: "7DD3B32981DC9940"
+				title: "红衫林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			id: "508C1E07D22AD2C4"
+			rewards: [{
+				id: "547FD6B2FE09ACB1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:sparse_jungle"
+				icon: "minecraft:jungle_leaves"
+				id: "1795C2E3CC869498"
+				title: "稀疏丛林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			id: "7746B2E041F93C01"
+			rewards: [{
+				id: "2129E02D67062339"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:mangrove_swamp"
+				icon: "minecraft:mangrove_leaves"
+				id: "01C861AD71D083D2"
+				title: "红树林沼泽"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			id: "16F43AE1C9E730F5"
+			rewards: [{
+				id: "77E379C7ACE21C0F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:magnolia_woodland"
+				icon: "regions_unexplored:white_magnolia_leaves"
+				id: "0C8452D015456D89"
+				title: "木兰林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			id: "3C910E7DB7178D89"
+			rewards: [{
+				id: "5DAF0C6E5B6CB9EF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:redstone_caves"
+				icon: "regions_unexplored:raw_redstone_block"
+				id: "586245F0498BD07F"
+				title: "红石洞穴"
+				type: "biome"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			id: "5AE012068048EBB8"
+			rewards: [{
+				id: "608FB81DA939785A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:ominous_woods"
+				icon: "biomesoplenty:umbran_leaves"
+				id: "44DB5857E2D99D56"
+				title: "不祥森林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			id: "18A70646434FA21E"
+			rewards: [{
+				id: "287B9E2EC296CC26"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:silver_birch_forest"
+				icon: "regions_unexplored:silver_birch_leaves"
+				id: "6B72FCA6222514BB"
+				title: "银桦林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			id: "25D99BD9D9FB9B95"
+			rewards: [{
+				id: "151653DD9FBFF208"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:rocky_meadow"
+				icon: "regions_unexplored:fireweed"
+				id: "6ABCB7EB48B3AB14"
+				title: "砾石草场"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			id: "70474F944CDD78BA"
+			rewards: [{
+				id: "47936304692F67E7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:maple_taiga"
+				icon: "biomeswevegone:red_maple_leaves"
+				id: "30D6AC966F34597F"
+				title: "枫叶针叶林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 6.5d
+		}
+		{
+			id: "206388406BC1323C"
+			rewards: [{
+				id: "49301EA6212CF515"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:yellowstone"
+				icon: "minecraft:coarse_dirt"
+				id: "73E2F8D6CB0125AE"
+				title: "黄石"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "06D8EB4C92FFFC7D"
+			rewards: [{
+				id: "7FD8061C43248B66"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:rocky_mountains"
+				icon: "minecraft:tuff"
+				id: "46B4F005EAFEC467"
+				title: "崎岖的山地"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "4D9BD01CF9DFA976"
+			rewards: [{
+				id: "63BA43400BA7A69E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:birch_taiga"
+				icon: "minecraft:birch_leaves"
+				id: "231C366ED9755EC5"
+				title: "桦木针叶林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			id: "237B3BB660DEC7F3"
+			rewards: [{
+				id: "25920ED564C10E7E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:aspen_boreal"
+				icon: "biomeswevegone:aspen_leaves"
+				id: "5364542A928EFDC5"
+				title: "北境白杨森林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			id: "3A95B1FC723C0819"
+			rewards: [{
+				id: "01E38E21ABD13B20"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:valley_clearing"
+				icon: "minecraft:cobblestone"
+				id: "194645576886A553"
+				title: "谷间旷地"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "1EC98DFC6EF43AE8"
+			rewards: [{
+				id: "4894E6669F8B0A81"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:rose_fields"
+				icon: "biomeswevegone:osiria_rose"
+				id: "6501138DC0B2C5FE"
+				title: "玫瑰原野"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "1B0AD19D6EDF8D56"
+			rewards: [{
+				id: "1F6E95731F1CBE9C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:weeping_witch_forest"
+				icon: "biomeswevegone:witch_hazel_leaves"
+				id: "2C032962CA39280A"
+				title: "巫术垂柳之森"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			id: "26CF895410CE69D9"
+			rewards: [{
+				id: "3F29F07A3CB2A3F6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:volcanic_peaks"
+				icon: "minecraft:blackstone"
+				id: "6C0C78152F7F5981"
+				title: "火山"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "46DD486B5519CD2C"
+			rewards: [{
+				id: "2C1997734C147F47"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:enchanted_tangle"
+				icon: "biomeswevegone:green_enchanted_leaves"
+				id: "22EF397E25F16823"
+				title: "魔法蔓林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			id: "5296CA83E49C4B41"
+			rewards: [{
+				id: "51FE3E867B87C89B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:fragment_jungle"
+				icon: "biomeswevegone:rainbow_eucalyptus_leaves"
+				id: "2A77CCC0442B1EF6"
+				title: "破碎的丛林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			id: "3D31D550281D38D0"
+			rewards: [{
+				id: "2E8B9BCACEAFEB51"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:dacite_ridges"
+				icon: "biomeswevegone:dacite"
+				id: "2F6B5A0EE1D85D6A"
+				title: "英安岩山岭"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "6B1536E3CB354259"
+			rewards: [{
+				id: "508DCA1FB2E3FE56"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:overgrown_greens"
+				icon: "biomesoplenty:high_grass"
+				id: "43EF197773501CC8"
+				title: "疯长的原野"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			id: "6105B338281921FA"
+			rewards: [{
+				id: "5780AD195CAE116A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:field"
+				icon: "biomesoplenty:white_lavender"
+				id: "6848E52A7AE58B15"
+				title: "原野"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "59CB00B553B8058D"
+			rewards: [{
+				id: "20F280FC268DD6EC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:stony_shore"
+				icon: "minecraft:stone"
+				id: "429DF1DBB4FDEF4F"
+				title: "石岸"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "4B48834A0F9D2B0A"
+			rewards: [{
+				id: "5B483C56EAB7A079"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:skyrise_vale"
+				icon: "biomeswevegone:skyris_leaves"
+				id: "1FDA7A4D9119F8CA"
+				title: "天际山谷"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			id: "67794632AFA03760"
+			rewards: [{
+				id: "36411671BBE81E7B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:taiga"
+				icon: "minecraft:spruce_leaves"
+				id: "2956EE7CD2EF2574"
+				title: "针叶林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			id: "5A85B81E97196BE9"
+			rewards: [{
+				id: "2058AD5C7BED7D1E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:cika_woods"
+				icon: "biomeswevegone:cika_leaves"
+				id: "2510F42831E56042"
+				title: "锡卡灌丛"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			id: "2ED2CEF4EBAB5506"
+			rewards: [{
+				id: "20E7A18221D1028A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:boreal_taiga"
+				icon: "regions_unexplored:larch_leaves"
+				id: "4DC84522698B2B4F"
+				title: "落叶针叶林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			id: "644735871B6C3355"
+			rewards: [{
+				id: "4C06369C05052D7C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:dacite_shore"
+				icon: "biomeswevegone:dacite"
+				id: "5617BCB25C25D2ED"
+				title: "英安岩海滨"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "2EAE36F9D139F25D"
+			rewards: [{
+				id: "05A1F8CD241A9459"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:temperate_grove"
+				icon: "minecraft:birch_leaves"
+				id: "71A01DCA29839FD7"
+				title: "温带树林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 9.5d
+		}
+		{
+			id: "3CF3E844A701A668"
+			rewards: [{
+				id: "34C4A172F1129F6B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:birch_forest"
+				icon: "minecraft:birch_leaves"
+				id: "6CA6DC547FD6D305"
+				title: "桦木树林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			id: "3F9F11DDA923ED3A"
+			rewards: [{
+				id: "5B589280A8A7DD11"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:old_growth_birch_forest"
+				icon: "minecraft:birch_leaves"
+				id: "1C1306CCEEFE5336"
+				title: "原始桦木森林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			id: "437087603CB0C5D2"
+			rewards: [{
+				id: "52725CEB103FAC3D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:temperate_grove"
+				icon: "regions_unexplored:maple_leaves"
+				id: "0459F4C2C09721D0"
+				title: "温和的果树林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			id: "54619C54D6A50513"
+			rewards: [{
+				id: "326B6713A51D7276"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:shrubland"
+				icon: "minecraft:oak_leaves"
+				id: "5F1CFF7469BF48A5"
+				title: "灌木林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			id: "3458F1B6D5D54C62"
+			rewards: [{
+				id: "31FE29DFADC6AE86"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:rainforest"
+				icon: "regions_unexplored:kapok_leaves"
+				id: "194E827373E9FDF3"
+				title: "热带雨林"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			id: "25C13EC2EB842936"
+			rewards: [{
+				id: "48A1287CEE094C32"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:lush_savanna"
+				icon: "minecraft:poppy"
+				id: "1C1E6A81647A3722"
+				title: "繁茂的热带草原"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "2A24DCA2B8EAB16F"
+			rewards: [{
+				id: "329D23F76218A569"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:wooded_badlands"
+				icon: "minecraft:red_sand"
+				id: "2C72686724F49A72"
+				title: "疏林恶地"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "3460F2F294DA42ED"
+			rewards: [{
+				id: "2FB1D6093A1EAD5F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomeswevegone:sierra_badlands"
+				icon: "minecraft:orange_terracotta"
+				id: "17D2F84B3A231A7E"
+				title: "锯齿恶地"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "2A5DB2C872F934F7"
+			rewards: [{
+				id: "55CE2056485A4D59"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:lush_desert"
+				icon: "biomesoplenty:orange_sandstone"
+				id: "4A1A4F029E97691A"
+				title: "繁茂沙漠"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "4559870DEE860397"
+			rewards: [{
+				id: "50E409A3EE5B8E1D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:rocky_rainforest"
+				icon: "minecraft:terracotta"
+				id: "28A125801F98DFC1"
+				title: "裸岩雨林"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: 11.5d
+		}
+		{
+			id: "1A6EEE626BFD3DC9"
+			rewards: [{
+				id: "5A7D9C57C692CF45"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				icon: "minecraft:dripstone_block"
+				id: "3A1FF007B7137620"
+				title: "滴水洞窟"
+				type: "biome"
+			}]
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			id: "0EA5844AF453F0D7"
+			rewards: [{
+				id: "4A0F10011F7142EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:spider_nest"
+				icon: "biomesoplenty:webbing"
+				id: "71FE9C0496E49D8C"
+				title: "蜘蛛巢穴"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			id: "0E290DA2B898E20E"
+			rewards: [{
+				id: "1D6A24DAA3441276"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:redstone_caves"
+				icon: "natures_spirit:chert"
+				id: "087718B8A14A6C04"
+				title: "溶洞"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			id: "60D5B7B80EEC152E"
+			rewards: [{
+				id: "5BF8634D3D5C6724"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:glowing_grotto"
+				icon: "biomesoplenty:glowshroom_block"
+				id: "4A153FFD83E49FC5"
+				title: "夜光石窟"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			id: "60890A324D9BC8C4"
+			rewards: [{
+				id: "7C069A9170417E4F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:prismachasm"
+				icon: "regions_unexplored:prismarite_cluster"
+				id: "74A6040CFD560933"
+				title: "彩虹水晶洞穴"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 3.5d
+		}
+		{
+			id: "7E10F88AEA93459B"
+			rewards: [{
+				id: "1DB9B4B24C622CFF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:scorching_caves"
+				icon: "regions_unexplored:volcanic_ash"
+				id: "4CCA13974328412D"
+				title: "炽热洞穴"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			id: "0E83A1CC9FB6A7B5"
+			rewards: [{
+				id: "6986666F70609DA5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:cave/mantle_caves"
+				icon: "minecraft:blackstone"
+				id: "7E755AC3C49D5511"
+				title: "地幔洞穴"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 5.5d
+		}
+		{
+			id: "30A99F60501AB174"
+			rewards: [{
+				id: "0A23C5428E270667"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "terralith:cave/thermal_caves"
+				icon: "minecraft:magma_block"
+				id: "6028E84E32544D31"
+				title: "灼热的洞穴"
+				type: "biome"
+			}]
+			x: -13.5d
+			y: 5.5d
+		}
+		{
+			id: "3F412EF817E4055F"
+			rewards: [{
+				id: "0AA4EC154077B191"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk"
+				id: "133065704D7579B9"
+				title: "深暗之域"
+				type: "biome"
+			}]
+			x: -14.5d
+			y: 6.5d
+		}
+		{
+			id: "5125E7528BA8C834"
+			rewards: [{
+				id: "6606DA7C88616E71"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:rocky_reef"
+				icon: "regions_unexplored:stone_grass_block"
+				id: "25C7A8EC9B9A499D"
+				title: "岩礁"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			id: "786360FAC743B849"
+			rewards: [{
+				id: "7DC6E93821FE73F3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:warm_ocean"
+				icon: "minecraft:brain_coral_fan"
+				id: "3A5E1F39198276BD"
+				title: "暖水海洋"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "6104C6C5680402C5"
+			rewards: [{
+				id: "485E4E72CA570B13"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "biomesoplenty:rainforest"
+				icon: "biomesoplenty:mahogany_leaves"
+				id: "62978099597DDEE9"
+				title: "雨林"
+				type: "biome"
+			}]
+			x: -11.5d
+			y: 11.5d
+		}
+		{
+			id: "7ABA57C6594B74CA"
+			rewards: [{
+				id: "2C3CD99C01D73880"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "regions_unexplored:barley_fields"
+				icon: "regions_unexplored:barley"
+				id: "1EE13A5BF8A8F7D7"
+				title: "大麦原野"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+	]
+	title: "条条大路通群系"
+}

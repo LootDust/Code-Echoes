@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "52A574C3C9A7AF3D", title: "内部触发器" }
+		{ id: "3353D6320CB7276B", title: "介绍与更新日志" }
+		{ id: "6BA03CAEE08F1294", title: "游商市场" }
+		{ id: "7396EC14ECFA1035", title: "冒险的时光" }
+		{ id: "015BE6022A4EA63F", title: "休养的闲暇" }
+		{ id: "2C2689D8B08DED86", title: "万宝图鉴" }
+	]
+}

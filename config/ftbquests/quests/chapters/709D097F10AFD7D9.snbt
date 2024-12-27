@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "709D097F10AFD7D9"
+	group: "015BE6022A4EA63F"
+	id: "709D097F10AFD7D9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "机械"
+}

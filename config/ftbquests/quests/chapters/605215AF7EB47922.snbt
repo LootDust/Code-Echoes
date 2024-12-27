@@ -1,0 +1,921 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "605215AF7EB47922"
+	group: "6BA03CAEE08F1294"
+	icon: "createdeco:gold_coinstack"
+	id: "605215AF7EB47922"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C26FD04015C5EB1"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2EB4075E600522E4"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "欢迎来到回收所"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C26FD04015C5EB1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:wheat"
+			id: "307AAF1A5A88199E"
+			rewards: [{
+				id: "7B40088D593E7CB3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2DAD467152947139"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "农作回收处"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C26FD04015C5EB1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_iron"
+			id: "0179F9E9A8D5477C"
+			rewards: [{
+				id: "32C1252095067342"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "04CB0454B0D483F4"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "矿石回收处"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C26FD04015C5EB1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:bone"
+			id: "7E56E03995523EB6"
+			rewards: [{
+				id: "5AF10529ECB06D59"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0A511E62E40F58AC"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "战利回收处"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C26FD04015C5EB1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:cobblestone"
+			id: "70D7AEA145971A1D"
+			rewards: [{
+				id: "48A3BDE5621FF3B5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "51106D305A99AE98"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "原材回收处"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C26FD04015C5EB1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "magistuarmory:woolen_fabric"
+			id: "4A8BF3EEA9A9F538"
+			rewards: [{
+				id: "6DD4BD4AD67DD1BE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3F3DD0DCECF3FE0F"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "杂项回收处"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D7AEA145971A1D"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_log"
+			id: "1CE546BDB5D71150"
+			rewards: [{
+				id: "33D6E34D68DE7947"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "22568463627ADF2F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "任意原木"
+				type: "item"
+			}]
+			title: "原木回收 64"
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C26FD04015C5EB1"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "thermal:gold_coin"
+			id: "1869768EE961A0E1"
+			rewards: [{
+				id: "1642575C2E3B7A21"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "62D1436CF75F5FAC"
+				title: "我了解了！"
+				type: "checkmark"
+			}]
+			title: "兑币处"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "12BB5FACC3A4BE49"
+			rewards: [{
+				id: "7BA1A11A6F4A3276"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0F1C58B836D642E0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "银币->金币 64:1"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5225ABCA3BBD00C9"
+			rewards: [{
+				id: "451C376FDD55ABEF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "587DC02C4E2F53AE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "银币->金币 640:10"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "63A117F622D71760"
+			rewards: [{
+				count: 64
+				id: "7C32DDFBC22541A2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10CECF558389531B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "金币->银币 1:64"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "29AC2C6441BCA718"
+			rewards: [{
+				count: 640
+				id: "39D1B9C31AF8AD8E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0B33996D98D0356B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "金币->银币 10:64"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "561E7048EB6D58D7"
+			rewards: [{
+				id: "7A574C3F00422AA5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "08DF08927863E9ED"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			title: "铜币->银币 64:1"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7662E4B144898E9E"
+			rewards: [{
+				count: 10
+				id: "571B8C7ABFF5D121"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 640L
+				id: "34EB4D20878CF4A0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			title: "铜币->银币 640:10"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4F0AFA4DEF395EE6"
+			rewards: [{
+				count: 64
+				id: "5C80643F4923D397"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "28F6DC548F4533AA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "银币->铜币 1:64"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1869768EE961A0E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "127244CBD91FAEA4"
+			rewards: [{
+				count: 640
+				id: "7C4B4B60E82BB9B6"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5112C28C602CD619"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "银币->铜币 10:640"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D7AEA145971A1D"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:stone"
+			id: "48E448E00BBFF374"
+			rewards: [{
+				id: "6AA83EB12CB91876"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "307F1D9B85DBAAF6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:stone"
+					}
+				}
+				title: "任意石头"
+				type: "item"
+			}]
+			title: "石料回收 64"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D7AEA145971A1D"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_log"
+			id: "64F51085478604FD"
+			rewards: [{
+				count: 10
+				id: "2802841E09B25FDD"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 640L
+				id: "1A1A9CBD7C454C8E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "任意原木"
+				type: "item"
+			}]
+			title: "原木回收 640"
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D7AEA145971A1D"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:stone"
+			id: "6C446A64AEC48110"
+			rewards: [{
+				count: 10
+				id: "186BCFD0F2FA899B"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 640L
+				id: "655C6E1A103C0776"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:stone"
+					}
+				}
+				title: "任意石头"
+				type: "item"
+			}]
+			title: "石料回收 640"
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:wheat"
+			id: "3D05832EA746A15B"
+			rewards: [{
+				count: 32
+				id: "1711507D39EE274B"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "05FAF173DD4C4BFA"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "小麦回收 64"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:carrot"
+			id: "5FEE1CAAE023F1AC"
+			rewards: [{
+				id: "4DFF14DA7C4F4821"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0A837EE218F1368D"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "胡萝卜回收 64"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:potato"
+			id: "20CC6E22BB81CDC0"
+			rewards: [{
+				id: "15417699320C1A58"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2184B5C1C0D48CE8"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "马铃薯回收 64"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:beetroot"
+			id: "0046C2AD800F7D30"
+			rewards: [{
+				id: "12D56066354195DE"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "655D3B68E77C0E70"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			title: "甜菜根回收 64"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:melon"
+			id: "0D6C4955174F4A9C"
+			rewards: [{
+				count: 4
+				id: "710EE6B1291931D8"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "75BC87890968365A"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			title: "西瓜回收 64"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:pumpkin"
+			id: "0689D26127C6F001"
+			rewards: [{
+				count: 2
+				id: "043F3512CD79781B"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4A087F1F1FBB10AB"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "南瓜回收 64"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:cocoa_beans"
+			id: "157F0A69A4D172FB"
+			rewards: [{
+				id: "2AD94C38B8C4991B"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "72A85FFDDD57CB1D"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			title: "可可豆回收 64"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["307AAF1A5A88199E"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:sugar_cane"
+			id: "635F606A8995413E"
+			rewards: [{
+				id: "5EDA633E2041491E"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1F0C70708E53070D"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "甘蔗回收 64"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_iron"
+			id: "089D14F0E461C987"
+			rewards: [{
+				count: 4
+				id: "44AD0228757D316B"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "555DCE7CE56AA4F2"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "粗铁回收 64"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_copper"
+			id: "790347AF4C8218BE"
+			rewards: [{
+				count: 2
+				id: "34FCBCDE0D8CDA25"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "05EFF5BB502F978A"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			title: "粗铜回收 64"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "thermal:raw_silver"
+			id: "0EBA11E4118BC0B6"
+			rewards: [{
+				count: 6
+				id: "1B5753B57D29CAA3"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "061E454AAD6930DB"
+				item: "thermal:raw_silver"
+				type: "item"
+			}]
+			title: "粗银回收 64"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_gold"
+			id: "2ACE5612D8FF96DC"
+			rewards: [{
+				count: 8
+				id: "5AD9D2A3A083EDCF"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "174CC938606C0896"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			title: "粗金回收 64"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "create:raw_zinc"
+			id: "094FDBC6D5AAE57B"
+			rewards: [{
+				count: 3
+				id: "54D9A1D899A1E2C5"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "45D2067B50A7B170"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			title: "粗锌回收 64"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "thermal:raw_tin"
+			id: "711D8C4711E05EEA"
+			rewards: [{
+				count: 3
+				id: "7C455B5C371FA0A3"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "39C5D37B8B03CE5E"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			title: "粗锡回收 64"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "thermal:raw_lead"
+			id: "3854A942EC752B70"
+			rewards: [{
+				count: 3
+				id: "50555BF89FA35D6E"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1F847F48BA8B5740"
+				item: "thermal:raw_lead"
+				type: "item"
+			}]
+			title: "粗铅回收 64"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0179F9E9A8D5477C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "thermal:raw_nickel"
+			id: "700039EC10387F51"
+			rewards: [{
+				count: 3
+				id: "7B1D17F7939BC4ED"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "513EB5349CBC1BB6"
+				item: "thermal:raw_nickel"
+				type: "item"
+			}]
+			title: "粗镍回收 64"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D7AEA145971A1D"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:sand"
+			id: "428B57CD04598BD3"
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5A35BB30A4574AAE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sand"
+					}
+				}
+				title: "任意沙子"
+				type: "item"
+			}]
+			title: "沙土回收"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D7AEA145971A1D"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:clay"
+			id: "1AF199ABA745072B"
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4B0D39FCB22C88A2"
+				item: "minecraft:clay"
+				title: "黏土"
+				type: "item"
+			}]
+			title: "黏土回收 64"
+			x: -8.5d
+			y: 3.0d
+		}
+	]
+	title: "游商回收所"
+}
