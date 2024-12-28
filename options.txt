@@ -76,7 +76,7 @@ skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
@@ -199,11 +199,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.r
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_key.relics.ability_list:key.keyboard.left.alt
 key_rainbowcompound.key.dynamicelytra_fly:key.keyboard.space
 key_key.celestial_artifacts.ability_key:key.keyboard.x
@@ -248,10 +248,10 @@ key_key.jade.show_recipes:key.keyboard.unknown
 key_key.jade.show_uses:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details:key.keyboard.left.control
+key_key.diet.open.desc:key.keyboard.unknown
 key_key.create_sa.flying:key.keyboard.unknown
 key_key.create_sa.increase_reach:key.keyboard.unknown
 key_key.create_sa.decrease_reach:key.keyboard.unknown
-key_key.diet.open.desc:key.keyboard.unknown
 key_key.irons_spellbooks.spell_wheel:key.keyboard.r
 key_key.irons_spellbooks.spellbook_cast:key.mouse.right
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.left.alt
@@ -284,9 +284,9 @@ key_ibeeditor.key.nbt_editor:key.keyboard.o
 key_ibeeditor.key.snbt_editor:key.keyboard.unknown
 key_ibeeditor.key.vault:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_keybind.invmove.toggleMove:key.keyboard.backslash
 key_key.tacz.melee_spec.desc:key.mouse.left
 key_key.tacz.reload_spec.desc:key.mouse.left
+key_keybind.invmove.toggleMove:key.keyboard.backslash
 soundCategory_master:0.25248344370860926
 soundCategory_music:0.10387323943661972
 soundCategory_record:1.0

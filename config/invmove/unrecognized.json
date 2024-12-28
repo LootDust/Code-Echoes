@@ -71,6 +71,8 @@
     "net.p3pp3rf1y.sophisticatedstorage.client.gui.StorageScreen": true,
     "net.mcreator.moped.client.gui.MopedGUIScreen": true,
     "com.tarinoita.solsweetpotato.item.foodcontainer.FoodContainerScreen": true,
-    "com.github.tartaricacid.netmusic.client.gui.ComputerMenuScreen": true
+    "com.github.tartaricacid.netmusic.client.gui.ComputerMenuScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.RedMerchantScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.VariableSizeContainerScreen": true
   }
 }
