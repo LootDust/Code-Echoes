@@ -16,3 +16,23 @@ ServerEvents.commandRegistry(event => {
       .executes(c => c.source.player.displayClientMessage(Component.literal("Test"), true))
     )
 })
+
+ServerEvents.commandRegistry(event => {
+  const { commands: Commands, arguments: Arguments } = event
+  
+  event.register(Commands.literal('suggest') // The name of the command
+    .requires(s => s.hasPermission(1)) // Check if the player has operator privileges
+    .then(Commands.argument('type', Arguments.STRING.create(event))
+      .executes(c => suggest(c.source.player)) // Toggle flight for the player included in the `target` argument
+    )
+  )
+  
+  // Helper function
+  let suggest = (player) => {
+    console.log(player)
+    if (player instanceof Internal.ServerPlayer) {
+      player.sendChatMessage("Sug get.", true)
+    }
+    return 1
+  }
+})

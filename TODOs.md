@@ -27,3 +27,4 @@
     - 实体生成（In Control）
     - 地形生成（BOP etc.）
     - 法术修改（Iron's Spell Book）
+    - 枪械修改（TaCZ）
